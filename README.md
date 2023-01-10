@@ -1,4 +1,4 @@
-# ReactProyect (Task commit) 📚
+# ReactProyect (Task commit) 🤖
 
 > ✨ Jorge Betancourt Gonzalez creando plataforma de cursos MachineTasks.INC
 
