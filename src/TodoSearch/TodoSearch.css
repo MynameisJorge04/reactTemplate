@@ -1,0 +1,26 @@
+.TodoSearch{
+    height: 40px;
+    width: 60%;
+    margin: 5px 15px;
+    border-radius: 5px;
+    background: #511C6C;
+    border: none;
+    color: white;
+    text-align: center;
+    outline: none;
+    font-size: 13px;
+}
+
+input::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+input:focus {
+    background-color: rgb(255, 255, 255);
+    color: #511C6C;
+    font-weight: bold;
+    transition: all 0.2s;
+}

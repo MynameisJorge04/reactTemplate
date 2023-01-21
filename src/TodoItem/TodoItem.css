@@ -1,0 +1,45 @@
+.TodoItem {
+    
+    font-size: 15px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    
+  }
+  
+  .TodoItem-p--complete {
+    text-decoration: line-through;
+  }
+
+  .TodoItem p{
+    width: 80%;
+  }
+
+  .TodoItem span{
+    width: 10%;
+    text-align: center;
+  }
+  
+  .Icon {
+    cursor: pointer;
+  }
+  .Icon-delete:hover {
+    color: #511C6C;
+    transition: all 0.2s;
+  }
+
+  .Icon-check{
+    background-color: white;
+    height: 20px;
+    max-width: 20px;
+    border-radius: 3px;
+    padding: 0.5px;
+  }
+
+  .Icon-check--active {
+    background-color: #511C6C;
+    color: white;
+  }
