@@ -123,7 +123,7 @@ function TodoProvider(props) {
 export {TodoContext, TodoProvider};
 
 //Sacamos las propiedad provider y el consumer lo que hace el provider es para envolver toda la aplicacion, y el consumer es para tomar la informacion en nuestro estado
-{
-  /* <TodoContext.Provider></TodoContext.Provider>
+
+/* <TodoContext.Provider></TodoContext.Provider>
 <TodoContext.Consumer></TodoContext.Consumer> */
-}
+

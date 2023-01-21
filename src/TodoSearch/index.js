@@ -7,7 +7,6 @@ function TodoSearch(){
     const {searchValue, setSearchValue} = React.useContext(TodoContext);
     //Esta es la forma de llamar a los estados para react con esto podemos tomar en cuenta la realizacion de  nuestro estado
     //Devolvemos un valor search del input y tambien una funcion que cambia con un string en cada valor
-    const [] = React.useState('');
 
     //Obtenemos el valor de nuestro input esto es a traves de un parametro
     
